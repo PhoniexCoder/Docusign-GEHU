@@ -25,8 +25,16 @@ export default defineConfig(({ mode }) => {
       }, {})
     },
     build: {
-      outDir: "build", // Keep the same output directory as CRA for compatibility
+      outDir: "dist", // Changed from 'build' to 'dist' for Vercel compatibility
+      chunkSizeWarningLimit: 1600, // Suppress warnings for large chunks
       rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return 'vendor';
+            }
+          }
+        },
         // For public template as separate chunk
         input: {
           main: resolve(__dirname, "index.html")
