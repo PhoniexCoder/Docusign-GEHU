@@ -4,14 +4,18 @@
   "description": "Open Source DocuSign",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd apps/OpenSignServer && npm run watch\" \"cd apps/OpenSign && npm run dev\"",
+    "dev": "concurrently \"cd apps/DocuSignServer && npm run watch\" \"cd apps/DocuSign && npm run dev\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "lint-staged-changes": "lint-staged"
   },
+  "workspaces": [
+    "apps/DocuSignServer",
+    "apps/DocuSign"
+  ],
   "repository": {
     "type": "git",
-    "url": "github.com/opensignlabs/opensign"
+    "url": "github.com/docusignlabs/docusign"
   },
   "keywords": [
     "digital",
@@ -21,7 +25,7 @@
     "electronic",
     "signature"
   ],
-  "author": "OpenSignLabs",
+  "author": "DocuSignLabs",
   "license": "AGPL-3.0",
   "devDependencies": {
     "concurrently": "^9.2.1",

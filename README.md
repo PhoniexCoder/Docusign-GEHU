@@ -1,34 +1,3 @@
-<h1 align="center"><a href='https://www.opensignlabs.com'><img src=https://github.com/OpenSignLabs/OpenSign/assets/5486116/e518cc9c-5de3-47da-950b-f93336b9f14e></a>
-</h1><div align="center">
-
-[The free and open source alternative to DocuSign](https://www.opensignlabs.com)
-
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/opensignlabs/opensign.svg)](http://isitmaintained.com/project/opensignlabs/opensign "Average time to resolve an issue")
-[![All Contributors](https://img.shields.io/github/all-contributors/opensignlabs/opensign?color=ee8449&style=flat-square)](#contributors)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/opensignlabs/opensign)
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/opensignlabs/opensign)
-
-
-<a href="https://www.opensignlabs.com/">Website</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://docs.opensignlabs.com">Help Docs</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href="https://docs.opensignlabs.com/docs/API-docs/opensign-api-v-1">API Docs</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.opensignlabs.com/blog">Blog</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://discord.com/invite/xe9TDuyAyj">Discord</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://twitter.com/opensignlabs">Twitter</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://www.linkedin.com/company/opensign%E2%84%A2/about/">LinkedIn</a>
-
-
-## The premier open source document signing solution(DocuSign alternative)
-
----
-</div>
-
 ### Table of Contents
 
 1. [Introduction](#introduction)
